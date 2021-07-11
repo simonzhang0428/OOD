@@ -44,4 +44,5 @@ public class EnumTest {
         EnumTest seventhDay = new EnumTest(Day.SUNDAY);
         seventhDay.tellItLikeItIs();
     }
+    
 }

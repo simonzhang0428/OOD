@@ -1,8 +1,10 @@
 package ParkingLot;
 
-public enum VehicleSize {
-    Compact, Large
-}
 public abstract class Vehicle {
+    
+    public enum VehicleSize {
+        COMPACT, LARGE
+    }
+
     public abstract VehicleSize getSize();
 }
