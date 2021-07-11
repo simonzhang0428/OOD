@@ -42,3 +42,16 @@ public enum Planet {
             System.out.printf("Your weight on %s is %f%n", p, p.surfaceWeight(mass));
     }
 }
+/*
+$ java Planet 175
+Your weight on MERCURY is 66.107583
+Your weight on VENUS is 158.374842
+Your weight on EARTH is 175.000000
+Your weight on MARS is 66.279007
+Your weight on JUPITER is 442.847567
+Your weight on SATURN is 186.552719
+Your weight on URANUS is 158.397260
+Your weight on NEPTUNE is 199.207413
+*/
+
+
