@@ -1,11 +1,18 @@
 package ParkingLot;
 
-public class ParkingSpot {
-    private final Vehicle.VehicleSize size;
-    private Vehicle currentVehicle;
+public class Spot {
+    private boolean available;
+    private Level l;
 
-    ParkingSpot(Vehicle.VehicleSize size) {
-        this.size = size;
+    public boolean isAvailable() {
+        return available;
     }
-    
+
+    public void takeSpot() {
+
+    }
+
+    public void leaveSpot() {
+        
+    }
 }

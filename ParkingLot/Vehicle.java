@@ -1,10 +1,14 @@
 package ParkingLot;
 
-public abstract class Vehicle {
-    
-    public enum VehicleSize {
-        COMPACT, LARGE
-    }
+import java.util.List;
 
-    public abstract VehicleSize getSize();
+public abstract class Vehicle {
+
+    protected int size;
+    protected List<Spot> spots;
+
+    public int getSize() {
+        return size;
+    }
+    
 }
