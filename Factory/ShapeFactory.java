@@ -9,7 +9,7 @@ public class ShapeFactory {
         void draw();
     }
 
-    class Rectangle implements Shape {
+    private class Rectangle implements Shape {
         // Write your code here
         public void draw() {
             System.out.println(" ----");
@@ -18,7 +18,7 @@ public class ShapeFactory {
         }
     }
 
-    class Square implements Shape {
+    private class Square implements Shape {
         // Write your code here
         public void draw() {
             System.out.println(" ----");
@@ -28,7 +28,7 @@ public class ShapeFactory {
         }
     }
 
-    class Triangle implements Shape {
+    private class Triangle implements Shape {
         // Write your code here
         public void draw() {
             System.out.println("  /\\");

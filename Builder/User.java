@@ -6,6 +6,7 @@ public class User {
     private int age;
     private String phone;
     private String address;
+    // private final String midName;
 
     private User(UserBuilder builder) {
         this.firstName = builder.firstName;
@@ -14,7 +15,7 @@ public class User {
         this.phone = builder.phone;
         this.address = builder.address;
     }
-
+    
     // getter and setter
 
     public static class UserBuilder {
@@ -51,11 +52,17 @@ public class User {
     }
 
     public static void main(String[] args) {
+        // User is papa
+        // User user2 = new User();
+
+        // nested class, non-static, papa = new papa(), child = papa.new child(parm...)
+
         User user = new User.UserBuilder("Simon", "Zhang")
                             .age(35)
                             .phone("408 796 9398")
                             .address("LA")
-                            .build();
+                            .build();   // chaining
+
         System.out.println(user.firstName + " " +
                             user.lastName + " " + 
                             user.age + " " +
