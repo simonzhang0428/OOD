@@ -1,4 +1,4 @@
-package ParkingLot;
+package Enum;
 
 public class EnumTest {
     public enum Day {
